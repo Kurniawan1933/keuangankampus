@@ -256,7 +256,7 @@
 <span class="font-['Inter'] text-[11px] font-semibold">Beranda</span>
 </a>
 <!-- Inactive Tab: Transaksi -->
-<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-2 group hover:text-blue-600 dark:hover:text-blue-300 active:scale-90 duration-200 ease-out" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-2 group hover:text-blue-600 dark:hover:text-blue-300 active:scale-90 duration-200 ease-out" href="/catatantransaksi">
 <span class="material-symbols-outlined mb-1" data-icon="receipt_long">receipt_long</span>
 <span class="font-['Inter'] text-[11px] font-semibold text-slate-400 dark:text-slate-500">Transaksi</span>
 </a>

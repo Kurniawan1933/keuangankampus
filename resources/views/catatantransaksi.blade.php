@@ -193,11 +193,10 @@
 <!-- BottomNavBar -->
 <nav class="fixed bottom-0 w-full z-50 bg-white/80 backdrop-blur-2xl rounded-t-3xl shadow-[0_-8px_24px_rgba(25,28,29,0.06)] md:hidden">
 <div class="flex justify-around items-center w-full px-4 pb-6 pt-3">
-<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-2">
-<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
-<span class="font-['Inter'] text-[11px] font-semibold">Beranda</span>
-</div>
-<div class="flex flex-col items-center justify-center bg-blue-50 text-blue-700 rounded-2xl px-5 py-2">
+<a href="/dashboard" class="flex flex-col items-center justify-center text-slate-400 px-5 py-2">
+    <span class="material-symbols-outlined">dashboard</span>
+    <span class="text-[11px] font-semibold">Beranda</span>
+</a><div class="flex flex-col items-center justify-center bg-blue-50 text-blue-700 rounded-2xl px-5 py-2">
 <span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
 <span class="font-['Inter'] text-[11px] font-semibold">Transaksi</span>
 </div>
